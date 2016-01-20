@@ -11,7 +11,7 @@ struct insert_to_list
     L &list;
     size_t num_elements;
 
-    insert_to_list(L &list, size_t num_elements = 1e8) :
+    insert_to_list(L &list, size_t num_elements = 1e7) :
         list(list), num_elements(num_elements) {}
 
     void operator() () const {
